@@ -1,2 +1,21 @@
 # PCD-I-Assignment
 Selling Programming Book System
+Our system is a UMT POS System. This system is about a UMT bookstore that is selling programming books in multiple fields. There are the software Development Programming field, Web Programming field, and Mobile Programming field. This system has a logical structure, and a simple design, and is easy to use for new users.
+
+It is designed mainly for year 1 students. Its main purpose is selling programming books to year 1 students. But also other users such as teachers and other year students can use this system. After running this system, the logo, heading, and options menu will be displayed continuously and automatically. The logo is the combination of our bookstore name “UMT”, three alphabets into one logo. The option menu shows the available action and users can select the action for the first.
+
+Enter 1 will display the field menu of programming books. After that, users must choose 1-3 to display different programming books with multiple programming fields. Select 1 will display the Development Programming field, select 2 will display the Web Programming field, and choose 3 will display the Mobile Programming field. After displaying the programming books menu, the system will loop to the beginning of the system and ask users to select the action again.
+
+Besides that, Enter 2 will display the sales order. Users can make an order according to the alphabet of programming books and also the number of programming books. After finishing the order, users need to enter X to exit the sales order. At this time, the system will ask users for confirmation orders to avoid user typos and make the wrong order. Then, the system will display the receipt of this order automatically. In this receipt, the quantity of the books that had been ordered will be shown only with the price of each book and the total price of each book. The other type of books that users did not order will not be shown. For example, if the user orders Book_A, Book_C, and Book_F, the receipt only shows the Book_A, Book_C, and Book_F quantity and price, Book_B, D, E, G, H, I will not be shown. At the bottom of the receipt, the subtotal of the sum of every book, the discount amount, and the final total amount will be displayed.
+
+After that, users can select to make a new order or not make a new order. If users select to make a new order, the system will loop to the sales order and let the users make a new order of programming books. 
+
+But if users select never make a new order, the system will display a daily sales order summary report. This report, there are showing the quantity of each book that users had ordered in all sales orders. There are also shown the price of each book and the total amount of books that users need to pay. Later, the system will loop to the beginning of the system and ask users to select the action again. 
+
+Furthermore, Enter 3 will display “Thank you for coming” and “Hope you have a nice day” at the end. Then, users will exit the system.
+
+There are some discounts in this bookstore using this system. If users had purchased a sales order between RM400.01 to RM599.99, a 5% discount will be given. If the users purchase an sales order between RM600 to RM799.99, a 10% discount will be given to the users. If the amount of an order is over RM800 and above, a 15% discount will be given.
+
+Apart from that, this system could scan some invalid inputs and ask the users to key in the valid inputs. For example, users enter -1 in the number of books. In common sense, quantity cannot be negative. Hence, this system will display the “Error Quantity” and ask users to key in the quantity again.
+
+In conclusion, this system called UMT bookstore is a simple online shop program for year 1 programming students. It has a basic function that displays the book's name and book's menu, a sales order function, and generate sales receipt and daily sales order summary report automatically. This system is running with the completing loop systems that can make users make orders in the different sales orders and simple selection systems that let users can select their action easily. All of these elements make the users understand the system clearly and have a good experience of using the system.
